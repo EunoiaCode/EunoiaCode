@@ -1,0 +1,65 @@
+
+
+<style type="text/css">
+
+
+
+.gallerycontainer{
+position:absolute;
+border:  1px solid gray;
+
+}
+
+.thumbnail img{
+
+margin: 0 5px 5px 0;
+border: 1px solid gray;
+visibility:visible;
+}
+
+.thumbnail:hover{
+background-color: transparent;
+
+}
+
+.thumbnail:hover img{
+
+visibility:visible;
+}
+
+.thumbnail span{ 
+position:absolute;
+
+padding: 3px;
+left: -1000px;
+top:260px;
+
+border: 1px solid gray;
+visibility:visible;
+color: black;
+text-decoration: none;
+}
+
+.thumbnail span img{
+border-width: 0;
+
+padding: 2px;
+
+}
+
+.thumbnail:hover span{ 
+position:absolute;
+visibility: visible;
+align: left;
+top: 100;
+
+left: 857px; 
+z-index: 50;
+}
+.image{ 
+border: 1px solid #bbb;
+width:86px;
+height:110px;
+}
+
+</style>
